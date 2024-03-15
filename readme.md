@@ -76,11 +76,12 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-Visit [http://localhost:8000](http://localhost:8000) to access website.
+Visit [Flight Booking App](https://flightbooking-l2rc.onrender.com/) to access the website.
 
 ### Admin Credentials
 
 - **Username:** admin
 - **Password:** admin123
 
-# Flight-Booking-App
+Visit [Flight Booking App Admin](https://flightbooking-l2rc.onrender.com/myadmin/login) to access the admin pannel.
+
