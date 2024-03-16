@@ -153,7 +153,7 @@ def adminLogin(request):
 
         user = authenticate(request, username=username, password=password)
 
-        if user is not None:
+        if user is not None and user.is_superuser:
             login(request, user)
             return redirect('adminDashboard')
         else:
